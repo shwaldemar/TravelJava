@@ -25,6 +25,11 @@ public class Flight {
 
     // Class functions are below.
 
+    public Plane getPlane(){
+        return this.plane;
+    }
+
+
     public int passengerCount() {
         return this.passengers.size();
     }
@@ -40,6 +45,7 @@ public class Flight {
     }
 
     public int numberOfAvailableSeats() {
+
         return (plane.getCapacity() - passengerCount());
     }
 }

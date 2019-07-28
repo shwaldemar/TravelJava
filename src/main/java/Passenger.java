@@ -9,10 +9,12 @@ public class Passenger {
     }
 
     public String getPassengerName() {
+
         return this.name;
     }
 
     public int getPassengerNoBags() {
+
         return this.noBags;
     }
 
